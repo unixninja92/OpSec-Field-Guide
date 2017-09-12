@@ -1,11 +1,11 @@
-#Threat Modeling
-###Designing Security Around *You*
+# Threat Modeling
+### Designing Security Around *You*
 
 >It does not do to leave a live dragon out of your calculations, if you live near him.
 >
 >J.R.R. Tolkien
 
-#####Give It to Me Straight
+##### Give It to Me Straight
 So, you may be wondering, 'What is threat modeling, and why is it important?'
 
 To keep things brief, Threat Modeling is one of many approaches to visualizing a scenario so that we can make better decisions with regard to security.
@@ -17,7 +17,7 @@ Get it?
 
  Throughout these tutorials we will be emphasizing this approach, as we believe it is simple, thorough, and versatile.
 
-#####How it Works
+##### How it Works
 In its simplest form, a threat model consists of only two steps:
 
 1. Identifying what you want to protect
@@ -28,14 +28,14 @@ We promise, that's the only jargon you'll have to remember to make this work!
 
 So, rather than go into some dry, rambling, textbook definitions, let's jump right in and see how this works with an example:
 
-#####Case Study: The Commute
+##### Case Study: The Commute
 
 As we have already mentioned, part of what makes the threat modeling approach so robust is its versatility.
 While these tutorials will generally focus on information security, one can threat model anything that needs to be secured.
 
 Because, at this point, we may not know enough about information security to threat model around that, let's instead threat model for something almost all of us can relate to: Commuting to work.
 
-######Some Background information
+###### Some Background information
 
 The situation is this: You are getting ready for work.
 You are going to drive your car to work.
@@ -43,7 +43,7 @@ The weather is nice, and you're in good health.
 
 Despite this good fortune, driving is risky business. So together, we are going to threat model your daily commute, and figure out where the risks lie.
 
-######Determining what's most important
+###### Determining what's most important
 
 Let's recall the first step of threat modeling:
 
@@ -71,7 +71,7 @@ Being able to drive is the first step towards securing your commute.
 
 With that settled, we continue on to defining adversaries, the bread-and-butter of threat modeling.
 
-######Defining the Adversary
+###### Defining the Adversary
 
 We've got something to fight for now.
 But what are we up against in our endeavor to protect ourselves?
@@ -111,7 +111,7 @@ We can put together our analysis of the assets and adversaries into a simple pro
 *To achieve this, they could set up speed traps on the highway to catch me speeding, or use checkpoints to verify my inspection and registration tags.*
 *However, they must follow the law to the letter during these processes, which could be helpful to my strategy.*
 
-#####Where do I go from here?
+##### Where do I go from here?
 
 Once you've done this for the assets and adversaries you're done developing your threat model.
 Congratulations!
@@ -120,7 +120,7 @@ Having a threat model properly established means that the measures you take to s
 Exactly how to secure those assets is not important at this stage.
 So congratulations, you're done!
 
-###FAQ
+### FAQ
 + I can come up with a lot of assets and adversaries. Do I really have to do all of this for each one of them?
   + **No, it is up to you to determine how thorough your threat model is.** Not all assets are created equal. You probably care more about securing your Social Security Number number than you do your lolcats.com password. Spend more time analyzing the former.
 
